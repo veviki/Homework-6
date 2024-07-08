@@ -60,10 +60,13 @@
             justify-content:space-evenly;
 
         }
+        #new_images{
+          display: none;
+        }
         
     </style> 
 </head>
-<body>
+<body style ="background-color: orange;">
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -75,7 +78,7 @@
     </nav>
     <div class="main">
         <h1 class="taste">Taste the Raw Goodness of Africa</h1>
-        <button><a class="explore" href="product.html">Explore our products</a></button>
+        <button id="explore"><a class="explore" href="pages/product.html">Explore our products</a></button>
     </div>
     <!-- <img src="https://th.bing.com/th/id/R.c655f6ad4bf1a12f920298b6e087200b?rik=KNLe3mk2jiJUjA&riu=http%3a%2f%2fcontent.kens5.com%2fphoto%2f2017%2f10%2f22%2fvegetables_1508727313637_11456014_ver1.0.jpg&ehk=Fq8Eoa9aKzsUPDZ8DtBhyVemrHDc8oqvw4qs3PvJii8%3d&risl=&pid=ImgRaw&r=0" style="width: 300px; height: 300px;" alt=""> -->
    
@@ -85,46 +88,74 @@
     <button><a href="contact.html">learn more</a></button>
   </div>
   </div>
+  <h1 style="text-align: center;">Browse through the Africa Goodness</h1>
 
      <!-- <h1>Taste the Raw Goodness of Africa</h1> -->
     <!-- <button><a href="product.html">Explore our products</a></button> -->
     <div class="big-div">
     <div>
-    <img src="https://th.bing.com/th/id/R.c655f6ad4bf1a12f920298b6e087200b?rik=KNLe3mk2jiJUjA&riu=http%3a%2f%2fcontent.kens5.com%2fphoto%2f2017%2f10%2f22%2fvegetables_1508727313637_11456014_ver1.0.jpg&ehk=Fq8Eoa9aKzsUPDZ8DtBhyVemrHDc8oqvw4qs3PvJii8%3d&risl=&pid=ImgRaw&r=0" style="width: 300px; height: 300px;" alt="">
+      
+    <img id="vegetables " src="https://th.bing.com/th/id/R.c655f6ad4bf1a12f920298b6e087200b?rik=KNLe3mk2jiJUjA&riu=http%3a%2f%2fcontent.kens5.com%2fphoto%2f2017%2f10%2f22%2fvegetables_1508727313637_11456014_ver1.0.jpg&ehk=Fq8Eoa9aKzsUPDZ8DtBhyVemrHDc8oqvw4qs3PvJii8%3d&risl=&pid=ImgRaw&r=0" style="width: 300px; height: 300px;" alt="">
     <h3>African vegetables</h3>
   </div>
 
   <div>
-    <img src="https://spicestationsilverlake.com/wp-content/uploads/2022/01/spices-1.jpg" style="width: 300px; height: 300px;" alt="">
+    <img id="Spices" src="https://spicestationsilverlake.com/wp-content/uploads/2022/01/spices-1.jpg" style="width: 300px; height: 300px;" alt="">
 <h3>African Spices</h3>
 </div>
 
-    </div>
-
-
-  <div class="big-div">
   <div>
-    <img src="https://th.bing.com/th/id/OIP.9Sr0PGsRJhp3oIwSa5IUJQHaE8?rs=1&pid=ImgDetMain" style="width: 300px; height: 300px;" alt="">
+    <img id="fruits" src="https://th.bing.com/th/id/OIP.9Sr0PGsRJhp3oIwSa5IUJQHaE8?rs=1&pid=ImgDetMain" style="width: 300px; height: 300px;" alt="">
     <h3>African Fruits</h3>
   </div> 
   <div>
-    <img src="https://th.bing.com/th/id/R.f7867bef08d648001d3229b3d7e1f337?rik=jDX7kv3gMMFKcw&pid=ImgRaw&r=0" style="width: 300px; height: 300px;" alt="">
+    <img id="leafy"  src="https://th.bing.com/th/id/R.f7867bef08d648001d3229b3d7e1f337?rik=jDX7kv3gMMFKcw&pid=ImgRaw&r=0" style="width: 300px; height: 300px;" alt="">
     <h3>African Leafy Greens</h3>
   </div>
- </div>
-
-<div class="big-div">
-  
 
   <div>
-    <img src="https://th.bing.com/th/id/OIP.ziUTxnNs9vK4UjAW2-2RWwHaFj?rs=1&pid=ImgDetMain" style="width: 300px; height: 300px;" alt="">
+    <img id="Legum" src="https://th.bing.com/th/id/OIP.ziUTxnNs9vK4UjAW2-2RWwHaFj?rs=1&pid=ImgDetMain" style="width: 300px; height: 300px;" alt="">
     <h3>African Legum</h3>
   </div>
   <div>
-    <img src="https://th.bing.com/th/id/R.1b2795dba8d1d446ffa8fc805a5742e7?rik=LH1QYfEOEu%2ff3w&pid=ImgRaw&r=0&sres=1&sresct=1" style="width: 300px; height: 300px;" alt="">
+    <img id="vegetables" src="https://th.bing.com/th/id/R.1b2795dba8d1d446ffa8fc805a5742e7?rik=LH1QYfEOEu%2ff3w&pid=ImgRaw&r=0&sres=1&sresct=1" style="width: 300px; height: 300px;" alt="">
     <h3>African vegetables </h3>
   </div>
   </div>
+  <button>Load more</button>
+  <!-- this is another set of images  -->
+  <div class="big-div" id="new_images">
+    <div>
+      
+    <img id="vegetables " src="https://th.bing.com/th/id/R.c655f6ad4bf1a12f920298b6e087200b?rik=KNLe3mk2jiJUjA&riu=http%3a%2f%2fcontent.kens5.com%2fphoto%2f2017%2f10%2f22%2fvegetables_1508727313637_11456014_ver1.0.jpg&ehk=Fq8Eoa9aKzsUPDZ8DtBhyVemrHDc8oqvw4qs3PvJii8%3d&risl=&pid=ImgRaw&r=0" style="width: 300px; height: 300px;" alt="">
+    <h3>African vegetables</h3>
+  </div>
+
+  <div>
+    <img id="Spices" src="https://spicestationsilverlake.com/wp-content/uploads/2022/01/spices-1.jpg" style="width: 300px; height: 300px;" alt="">
+<h3>African Spices</h3>
+</div>
+
+  <div>
+    <img id="fruits" src="https://th.bing.com/th/id/OIP.9Sr0PGsRJhp3oIwSa5IUJQHaE8?rs=1&pid=ImgDetMain" style="width: 300px; height: 300px;" alt="">
+    <h3>African Fruits</h3>
+  </div> 
+  <div>
+    <img id="leafy"  src="https://th.bing.com/th/id/R.f7867bef08d648001d3229b3d7e1f337?rik=jDX7kv3gMMFKcw&pid=ImgRaw&r=0" style="width: 300px; height: 300px;" alt="">
+    <h3>African Leafy Greens</h3>
+  </div>
+
+  <div>
+    <img id="Legum" src="https://th.bing.com/th/id/OIP.ziUTxnNs9vK4UjAW2-2RWwHaFj?rs=1&pid=ImgDetMain" style="width: 300px; height: 300px;" alt="">
+    <h3>African Legum</h3>
+  </div>
+  <div>
+    <img id="vegetables" src="https://th.bing.com/th/id/R.1b2795dba8d1d446ffa8fc805a5742e7?rik=LH1QYfEOEu%2ff3w&pid=ImgRaw&r=0&sres=1&sresct=1" style="width: 300px; height: 300px;" alt="">
+    <h3>African vegetables </h3>
+  </div>
+  </div>
+
+
     <hr>
     <footer>Please contact us on our socials.👍❤
     <i class="fa-brands fa-instagram"></i>
@@ -133,5 +164,6 @@
     <i class="fa-brands fa-twitter"></i>
  </footer>
 
+<script src="src/index.js"></script>
 </body>
 </html>
