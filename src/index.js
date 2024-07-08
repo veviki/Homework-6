@@ -9,3 +9,13 @@ function promptName(){
 
 let product = document.getElementById("explore");
  product.addEventListener("mouseenter", promptName);
+
+ //loading more images when i click
+function loadmore(){
+    let new_images = document.getElementById("new_images"); 
+    new_images.style.display = "block";
+    new_images.style.display = "flex";
+}
+ let load= document.getElementById("load");
+ load.addEventListener("click", loadmore);
+ 
