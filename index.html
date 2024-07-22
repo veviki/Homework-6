@@ -19,7 +19,7 @@
         }
         /* styling the paragraph */
         .paragraph{
-        background-color: rgb(42, 165, 63);
+        background-color: rgb(10, 220, 248);
         padding: 50px 30px;
         border: 3px solid grey;
         border-radius: 20px;
@@ -46,11 +46,11 @@
 
         /* styling to hover the explore buttom */
         .main button:hover{
-            background-color:blue;
+            background-color: lightgreen ;
             color: white;
-        } */ */
+        } 
 
-        .explore{
+         .explore{
             color: white;
         }
         
@@ -66,6 +66,7 @@
 
           .button1 a{
             text-decoration: none;
+            color: black;
           }
 
             /* styling the image */
@@ -73,26 +74,25 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
-            flex-direction: row;
+            
       }
-         /* #new_images{
+         #new_images{
           display: none;
-      } */ 
+      } 
        .nav_box{
         display: flex;
         justify-content: flex-end;
         gap: 70px;
         background-color: black;
-        padding: 10px 0;
+        padding:30px 0;
         opacity: 0.8;
       }
 
-      .nav_box li a{
+     a{
         color: white;
       }
-li{
-  list-style: none;
-}
+
+ /* styling the newsletter  */
 .news{
   background-color: black;
   color: white;
@@ -100,6 +100,7 @@ li{
   padding: 9px;
   font-size: large;
 }
+/* styling the email */
 .email{
   background-color: aliceblue;
   height: 1px;
@@ -114,100 +115,148 @@ li{
 .sign{
   margin-left: 500px;
 }
+.log{
+  border-radius: 3px solid black;
+  border-radius: 30%;
+  position: absolute;
+  left: 50px;
+  top: 10px;
+  height: 70px;
+  width: 70px;
+  padding: 9px;
+  margin-left: 50px;
+}
+
+.footer{text-align: center;
+  background-color: aliceblue;
+  font-family: cursive;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
+  font-size: 30px;
+}
+ /* styling the hide button */
+ 
+ 
    </style> 
    </head>
-   <body style ="background-color: rgb(23, 32, 42)">
+   <body style ="background-color: lightgreen;">
 
     <nav>
-        <ul class="nav_box"> 
+        <ul class="nav_box">
+          <div class="logo-box">
+          <li><img class="log" src="images/logo logo.jfif "></li>
+          </div>
             <li class="nav"><a href="index.html" style="text-decoration: none;">Home</a></li>
             <li  class="nav"><a href="pages/product.html"  style="text-decoration: none;">Product</a></li>
+            <li class="nav"><a href="pages/about.html" style="text-decoration: none;"> About Us</a></li>
             <li  class="nav"><a href="pages/contact.html"  style="text-decoration: none;">Contact</a></li>
             <li  class="nav"><a href="pages/login.html"  style="text-decoration: none;">Login</a></li>
             <li  class="nav"><a href="pages/signup.html"  style="text-decoration: none;">Signup</a></li>
      </ul>
      </nav>
-
      <div class="main">
-     <h1 class="taste">Taste the Raw Goodness of Africa</h1>
-     <button id="explore"><a class="explore" href="pages/product.html">Explore our products</a></button>
+     <h1 class="taste" id="text"><i>Taste the Raw Goodness of Africa</i></h1>
+     <button id="explore"><a class="explore" href="pages/product.html"><i>Explore our products</i></a></button>
      </div>
-      <!-- <img src="https://th.bing.com/th/id/R.c655f6ad4bf1a12f920298b6e087200b?rik=KNLe3mk2jiJUjA&riu=http%3a%2f%2fcontent.kens5.com%2fphoto%2f2017%2f10%2f22%2fvegetables_1508727313637_11456014_ver1.0.jpg&ehk=Fq8Eoa9aKzsUPDZ8DtBhyVemrHDc8oqvw4qs3PvJii8%3d&risl=&pid=ImgRaw&r=0" style="width: 300px; height: 300px;" alt=""> -->
-
-
+      
      <div class="paragraph">
      <p>Africa Food is diverse, and when you are talking about food, the culture comes in too. With over 54 countries and 3,000 ethnic groups, African food has much to offer. In this website, we will explore some fascinating facts about African foods. The food is rich in flavor and reflects the continent's varied history, geography, and cultural <b>traditions.</b> Bottomline, there are many African countries with great food.</p>
      <div class="button1">
      <button><a href="pages/product.html">learn more</a></button>
      </div> 
      </div>
-     <h1 style="text-align: center;">Browse through the Africa Goodness</h1>
-     <div class="big-div">
+     <h1 style="text-align: center;" id="browse"><i>Browse through the Africa Goodness</i></h1>
+
+    <div class="big-div">
     <div> 
-    <img id="vegetables " src="https://th.bing.com/th/id/R.c655f6ad4bf1a12f920298b6e087200b?rik=KNLe3mk2jiJUjA&riu=http%3a%2f%2fcontent.kens5.com%2fphoto%2f2017%2f10%2f22%2fvegetables_1508727313637_11456014_ver1.0.jpg&ehk=Fq8Eoa9aKzsUPDZ8DtBhyVemrHDc8oqvw4qs3PvJii8%3d&risl=&pid=ImgRaw&r=0" style="width: 400px; height: 400px;" alt="">
+    <img id="vegetables " src="images/neew vegetable.jfif" style="width: 400px; height: 400px;" alt="">
     <h3 style="text-align: center;">African vegetables</h3>
     </div>
 
     <div>
-    <img id="Spices" src="https://spicestationsilverlake.com/wp-content/uploads/2022/01/spices-1.jpg" style="width: 400px; height: 400px;" alt="">
+    <img id="Spices" src="images/neew spices.jfif" style="width: 400px; height: 400px;" alt="">
     <h3 style="text-align: center;">African Spices</h3>
     </div>
 
     <div>
-    <img id="fruits" src="https://th.bing.com/th/id/OIP.9Sr0PGsRJhp3oIwSa5IUJQHaE8?rs=1&pid=ImgDetMain" style="width: 400px; height: 400px;" alt="">
+    <img id="fruits" src="images/neew fruits.jfif" style="width: 400px; height: 400px;" alt="">
     <h3 style="text-align: center;">African Fruits</h3>
     </div> 
     <div>
-    <img id="leafy"  src="https://th.bing.com/th/id/R.f7867bef08d648001d3229b3d7e1f337?rik=jDX7kv3gMMFKcw&pid=ImgRaw&r=0" style="width: 400px; height: 400px;" alt="">
+    <img id="leafy"  src="images/neew leafy green.jfif" style="width: 400px; height: 400px;" alt="">
     <h3 style="text-align: center;">African Leafy Greens</h3>
     </div>
 
     <div>
-    <img id="Legum" src="https://th.bing.com/th/id/OIP.ziUTxnNs9vK4UjAW2-2RWwHaFj?rs=1&pid=ImgDetMain" style="width: 400px; height: 400px;" alt="">
+    <img id="Legum" src="images/neew legum.jfif" style="width: 400px; height: 400px;" alt="">
     <h3 style="text-align: center;">African Legum</h3>
     </div>      
     <div>
-    <img id="vegetables" src="https://th.bing.com/th/id/R.1b2795dba8d1d446ffa8fc805a5742e7?rik=LH1QYfEOEu%2ff3w&pid=ImgRaw&r=0&sres=1&sresct=1" style="width: 400px; height: 400px;" alt="">
+    <img id="vegetables" src="images/vcooked veges.webp" style="width: 400px; height: 400px;" alt="">
     <h3 style="text-align: center;">African vegetables </h3>
     </div>
-    </div>
-
-    <!-- selecting the load me button
-    <button id="load">Loadmore</button>
-    this is another set of images 
-    <div class="big-div" id="new_images"></div> -->
-    
-    <!-- <div>  
-    <img id="vegetables " src="https://th.bing.com/th/id/R.c655f6ad4bf1a12f920298b6e087200b?rik=KNLe3mk2jiJUjA&riu=http%3a%2f%2fcontent.kens5.com%2fphoto%2f2017%2f10%2f22%2fvegetables_1508727313637_11456014_ver1.0.jpg&ehk=Fq8Eoa9aKzsUPDZ8DtBhyVemrHDc8oqvw4qs3PvJii8%3d&risl=&pid=ImgRaw&r=0" style="width: 400px; height: 400px;" alt="">
-    <h3>African vegetables</h3>
-    </div>
-
     <div>
-    <img id="Spices" src="https://spicestationsilverlake.com/wp-content/uploads/2022/01/spices-1.jpg" style="width: 400px; height: 400px;" alt="">
-    <h3>African Spices</h3>
-    </div>
+      <img id="Legum" src="images/neew groundnut.jfif" style="width: 400px; height: 400px;" alt="">
+      <h3 style="text-align: center;">African Legum</h3>
+      </div>      
+      <div>
+        <img id="fruits" src="images/anoda fruit.jpg" style="width: 400px; height: 400px;" alt="">
+        <h3 style="text-align: center;">African Fruits</h3>
+        </div> 
+        <div>
+          <img id="leafy"  src="images/leaffy food.jpg" style="width: 400px; height: 400px;" alt="">
+          <h3 style="text-align: center;">African Leafy Greens</h3>
+          </div>
+      </div>
 
-    <div>
-    <img id="fruits" src="https://th.bing.com/th/id/OIP.9Sr0PGsRJhp3oIwSa5IUJQHaE8?rs=1&pid=ImgDetMain" style="width: 400px; height: 400px;" alt="">
-    <h3>African Fruits</h3>
-    </div> 
-    <div>
-    <img id="leafy"  src="https://th.bing.com/th/id/R.f7867bef08d648001d3229b3d7e1f337?rik=jDX7kv3gMMFKcw&pid=ImgRaw&r=0" style="width: 400px; height: 400px;" alt="">
-    <h3>African Leafy Greens</h3>
-    </div>
-
-    <div>
-    <img id="Legum" src="https://th.bing.com/th/id/OIP.ziUTxnNs9vK4UjAW2-2RWwHaFj?rs=1&pid=ImgDetMain" style="width: 400px; height: 400px;" alt="">
-    <h3>African Legum</h3>
-    </div>
-
-    <div>
-    <img id="vegetables" src="https://th.bing.com/th/id/R.1b2795dba8d1d446ffa8fc805a5742e7?rik=LH1QYfEOEu%2ff3w&pid=ImgRaw&r=0&sres=1&sresct=1" style="width: 400px; height: 400px;" alt="">
-    <h3>African vegetables </h3>
-    </div>
-    </div> -->
-
-  <div class="news">
+    <!-- selecting the load me button -->
+    <button id="load">show more</button>    
+    <!--this is another set of images -->
+   <div class="big-div" id="new_images">
+      <div> 
+      <img id="vegetables " src="images/neew vegetable.jfif" style="width: 400px; height: 400px;" alt="">
+      <h3 style="text-align: center;">African vegetables</h3>
+      </div>
+  
+      <div>
+      <img id="Spices" src="images/neew spices.jfif" style="width: 400px; height: 400px;" alt="">
+      <h3 style="text-align: center;">African Spices</h3>
+      </div>
+  
+      <div>
+      <img id="fruits" src="images/neew fruits.jfif" style="width: 400px; height: 400px;" alt="">
+      <h3 style="text-align: center;">African Fruits</h3>
+      </div> 
+      <div>
+      <img id="leafy"  src="images/neew leafy green.jfif" style="width: 400px; height: 400px;" alt="">
+      <h3 style="text-align: center;">African Leafy Greens</h3>
+      </div>
+  
+      <div>
+      <img id="Legum" src="images/neew legum.jfif" style="width: 400px; height: 400px;" alt="">
+      <h3 style="text-align: center;">African Legum</h3>
+      </div>      
+      <div>
+      <img id="vegetables" src="images/vcooked veges.webp" style="width: 400px; height: 400px;" alt="">
+      <h3 style="text-align: center;">African vegetables </h3>
+      </div>
+      <div>
+        <img id="Legum" src="images/neew groundnut.jfif" style="width: 400px; height: 400px;" alt="">
+        <h3 style="text-align: center;">African Legum</h3>
+        </div>      
+        <div>
+          <img id="fruits" src="images/anoda fruit.jpg" style="width: 400px; height: 400px;" alt="">
+          <h3 style="text-align: center;">African Fruits</h3>
+          </div> 
+          <div>
+            <img id="leafy"  src="images/leaffy food.jpg" style="width: 400px; height: 400px;" alt="">
+            <h3 style="text-align: center;">African Leafy Greens</h3>
+        </div>
+      <span><button>Hide</button></span>
+     </div>
+          
+           <div class="news">
   <div>
     <h2>Newsletter</h2>
   <p> Would you like to receive monthly information about our product and services?</p>
@@ -224,13 +273,16 @@ li{
   </div>
 
     <hr>
-    <footer>Please contact us on our socials.👍❤
+    <div class="footer">
+    <footer>
+    <h4>Please contact us on our socials.👍❤</h4>
     <i class="fa-brands fa-instagram"></i>
     <i class="fa-brands fa-youtube"></i>
     <i class="fa-brands fa-facebook"></i>
     <i class="fa-brands fa-twitter"></i>
    </footer>
+   </div>
 
-   <!-- <script src="src/index.js"></script> -->
+   <script src="src/index.js"></script>
    </body>
    </html>

@@ -4,17 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup page</title><script src="https://kit.fontawesome.com/8e22a112dc.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <style>
+      .nav_box{
+          display: flex;
+          justify-content: flex-end;
+          gap: 70px;
+          background-color: black;
+          padding: 30px;
+          opacity: 0.8;
+        }
+   .nav_box li a{
+          color: white;
+        }
+  li{
+    list-style: none;
+  }
+  .log{
+  border-radius: 3px solid black;
+  border-radius: 30%;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  height: 70px;
+  width: 70px;
+  padding: 9px;
+  margin-left: 50px;
+}
+
+.footer{text-align: center;
+  background-color: aliceblue;
+  font-family: cursive;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
+  font-size: 30px;
+
+} 
+.whole{
+  display: flex;
+  gap: 50px;
+}
+.formmain{
+  background-color: green;
+  padding: 30px 20px;
+}
+  </style>
+  </head>
+<body style="background-color: rgb(6, 176, 233)">
     <nav>
-        <ul>
-           <li><a href="../index.html">Home</a></li>
-            <li><a href="product.html">Product</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="login.html">Login</a></li>
-            <li><a href="signup.html"> Signup</a></li>
-        </ul>
+      <ul class="nav_box">
+        <div class="logo-box">
+        <li><img class="log" src="../images/logo logo.jfif" width="400px"></li>
+        </div>
+          <li class="nav"><a href="../index.html" style="text-decoration: none;">Home</a></li>
+          <li  class="nav"><a href="product.html"  style="text-decoration: none;">Product</a></li>
+          <li class="nav"><a href="about.html" style="text-decoration: none;"> About Us</a></li>
+          <li  class="nav"><a href="contact.html"  style="text-decoration: none;">Contact</a></li>
+          <li  class="nav"><a href="login.html"  style="text-decoration: none;">Login</a></li>
+          <li  class="nav"><a href="signup.html"  style="text-decoration: none;">Signup</a></li>
+   </ul>
     </nav> 
+      <div class="whole">
+        <img src="">
+      <div class="formmain">
     <form action="">
       <div>
 <label for="">First Name</label>
@@ -47,13 +99,17 @@
       <div>
         <button type="submit">submit</button>
       </div>
-
-    </form> 
-    <footer>Please contact us on our socials.👍❤</footer>
-    <i class="fa-brands fa-instagram"></i>
-    <i class="fa-brands fa-youtube"></i>
-    <i class="fa-brands fa-facebook"></i>
-    <i class="fa-brands fa-twitter"></i>
-
+   </form>
+  </div>
+      </div>
+    <div class="footer">
+      <footer>
+      <h4>Please contact us on our socials.👍❤</h4>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-twitter"></i>
+     </footer>
+     </div>
 </body>
 </html>

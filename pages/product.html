@@ -30,21 +30,85 @@
     padding: 6px;
            
 }
+ /* flexing all the products */
+ .product_container{
+  display: flex;
+  flex: wrap;
+  justify-content: space-between;
+ }
+ .nav_box{
+        display: flex;
+        justify-content: flex-end;
+        gap: 70px;
+        background-color: rgb(15, 89, 138);
+        padding: 10px 0;
+        opacity: 0.8;
+      }
 
+      .nav_box li a{
+        color: white;
+      }
+li{
+  list-style: none;
+}.nav_box{
+        display: flex;
+        justify-content: flex-end;
+        gap: 70px;
+        background-color: black;
+        padding: 30px;
+        opacity: 0.8;
+      }
+
+      .nav_box li a{
+        color: white;
+      }
+li{
+  list-style: none;
+}
+.log{
+  border-radius: 3px solid rgb(17, 146, 179);
+  border-radius: 30%;
+  height: 70px;
+  width: 70px;
+  padding: 9px;
+  margin-left: 50px;
+}
+.logo-box{
+  position: relative;
+  width: fit-content;
+  margin-left: 0%;
+}
+.footer{text-align: center;
+  background-color: aliceblue;
+  font-family: cursive;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
+  font-size: 30px;
+
+}
     </style>
 </head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="product.html">Product</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="login.html">Login</a></li>
-            <li><a href="signup.html">Signup</a></li>
-        </ul>
+<body style="background-color: grey">
+   <nav>
+    <ul class="nav_box">
+        <div class="logo-box">
+          <li><img class="log" src="../images/logo logo.jfif" alt=""></li>
+        </div>
+          <li class="nav"><a href="../index.html" style="text-decoration: none;">Home</a></li>
+          <li  class="nav"><a href="product.html"  style="text-decoration: none;">Product</a></li>
+          <li class="nav"><a href="about.html" style="text-decoration: none;"> About Us</a></li>
+          <li  class="nav"><a href="contact.html"  style="text-decoration: none;">Contact</a></li>
+          <li  class="nav"><a href="login.html"  style="text-decoration: none;">Login</a></li>
+          <li  class="nav"><a href="signup.html"  style="text-decoration: none;">Signup</a></li>
+   </ul>
     </nav> 
+   
     <h2 class="raw"><i>Our Raw Food Product</i></h2>
-    <img src="https://www.bing.com/th?id=OIP.2uTK0tgKfrMydCpUWX2E7wHaE0&w=208&h=150&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt=""> 
+
+    <div class="product_container">
+    <div>
+    <img src="https://www.bing.com/th?id=OIP.2uTK0tgKfrMydCpUWX2E7wHaE0&w=208&h=150&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=\" alt=""> 
     <h2 class="products">African yams</h2>
     <p><span class="span"><a href="https://simple.wikipedia.org/wiki/Yam" target="_blank">Yams </a></span>
         are native to warmer regions of both hemispheres, and several species are cultivated us 
@@ -55,37 +119,43 @@
     <p>
         <button class="learn"><a href="contact.html">Learn More</a></button>
     </p>
+  </div>
     <hr>
-    <h3>Our Raw Food Products</h3>
+    <div>
     <img src="https://th.bing.com/th/id/R.21614c95d5d13082be17fa1a2892461a?rik=JUipVJ0Ft1b%2fcQ&pid=ImgRaw&r=0" style="width: 190px;" alt="">
     <h3 class="products">African Plantain</h3>
     <p><span class="span"><a href="https://en.wikipedia.org/wiki/Plantain" target="_blank">Plantains</a></span>
     are major group of banana varieties(genus Musa) that are staple foods in many tropical areas.
      This edible fruit of plantain bananas has more starch than the common desert banana and is not eaten raw.
-     Because plantains have the most starch before they ripen, they are usually cooked green, either <b>boiled or fried,</b> in sasvory dishes. 
-     The ripe fruits are mildly sweet and are often cooked with coconut juice or sugar as a flavouring.
+     Because plantains have the most starch before they ripen, they are usually cooked green, either <b>boiled or fried,</b>
+      in sasvory dishes. The ripe fruits are mildly sweet and are often cooked with coconut juice or sugar as a flavouring.
      Plantains may also be dried for later use in cooking or ground for use as a meal, which can be further refined to a flour. 
     </p>
     <p>
         <button class="learn"><a href="contact.html">Learn More</a></button>
     </p>
+  </div>
     <hr>
-    <h3>Our Raw Food Products</h3>
+    <div>
     <img src="https://th.bing.com/th/id/R.7f1a40afd1e14b9eb7a7fa1f53e6ee1e?rik=xP4dP8SfEqmepg&pid=ImgRaw&r=0"style="width: 190px;">
     <h3 class="products">African white-garden-egg</h3>
     <p><span class="span"><a href="https://www.bing.com/search?q=wikipedia+eggplant" target="_blank">Eggplants</a></span>
      are a type of eggplant used as a food crop in several countries across Africa.
      These small, white fruits have a teardrop or roundish shape and are valued for their bitterness.
-     Garden egg is indegenous to Sub-Saharan Africa and can be stored for up to three months by allowing it to dry, which is particularly usefu; in the tropical regions where refrigerators may be limited.
-     In Ghana, garden eggs is one of the <b>three most consumed vegetables,</b> alongside tomatoes and peppers. It is used in stews and can also be eaten raw. Interestingly, the stems and leaves of garden eggs are consumed in some African countries, although not in Ghana.
-     Due to its spongy texture, garden egg is sometimes used as a less expensive meat substitute, as it absorbs other lavours well.
+     Garden egg is indegenous to Sub-Saharan Africa and can be stored for up to three months by allowing it to dry,
+     which is particularly usefu;
+     in the tropical regions where refrigerators may be limited.
+     In Ghana, garden eggs is one of the <b>three most consumed vegetables,</b> alongside tomatoes and peppers.
+     It is used in stews and can also be eaten raw. Interestingly, the stems and leaves of garden eggs are consumed 
+     in some African countries, although not in Ghana.  Due to its spongy texture, garden egg is sometimes used as a 
+     less expensive meat substitute, as it absorbs other lavours well.
     </p>
-
- <p>
+    <p>
     <button class="learn"><a href="contact.html">Learn More</a></button>
- </p>
+   </p>
+   </div>
  <hr>
- <h3>Our Raw Food Product</h3>
+ <div>
  <img src="https://th.bing.com/th/id/OIP.HU33pK8VH6AgFBBhIk7IkAHaHa?w=1024&h=1024&rs=1&pid=ImgDetMain"style="width:190px ;" alt="">
  <h3 class="products">Okro</h3>
  <p><span class="span"><a href="https://en.wikipedia.org/wiki/Okra" target="_blank">Okro</a></span>
@@ -94,16 +164,21 @@
  In Nigeria, it is a key ingresdient in popular dishes like okra soup and ogbono-soup.
 </p>
 <p>
-    <button class="learn"><a href="contact.html">Learn More</a></button>
+ <button class="learn"><a href="contact.html">Learn More</a></button>
  </p>
+</div>
+  
+</div>
 
  
-
- <footer>Please contact us on our socials.👍❤</footer>
- <i class="fa-brands fa-instagram"></i>
- <i class="fa-brands fa-youtube"></i>
- <i class="fa-brands fa-facebook"></i>
- <i class="fa-brands fa-twitter"></i>
-
+<div class="footer">
+  <footer>
+  <h4>Please contact us on our socials.👍❤</h4>
+  <i class="fa-brands fa-instagram"></i>
+  <i class="fa-brands fa-youtube"></i>
+  <i class="fa-brands fa-facebook"></i>
+  <i class="fa-brands fa-twitter"></i>
+ </footer>
+ </div>
 </body>
 </html

@@ -4,20 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact page</title><script src="https://kit.fontawesome.com/8e22a112dc.js" crossorigin="anonymous"></script>
+    <style>
+    .nav_box{
+        display: flex;
+        justify-content: flex-end;
+        gap: 70px;
+        background-color: black;
+        padding: 30px ;
+        opacity: 0.8;
+      }
+
+      .nav_box li a{
+        color: white;
+      }
+li{
+  list-style: none;
+}
+.log{
+  border-radius: 3px solid black;
+  border-radius: 30%;
+  position: absolute;
+  left: -600px;
+  top: -40px;
+  height: 70px;
+  width: 70px;
+  padding: 9px;
+  margin-left: 50px;
+}
+.logo-box{
+  position: relative;
+  width: fit-content;
+}
+.footer{text-align: center;
+  background-color: aliceblue;
+  font-family: cursive;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 30px;
+  font-size: 15px;
+
+}
+.formore{
+  background-color: aqua;
+  padding: 30px 30px;
+
+}
+.formone{
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+</style>
 </head>
-<body>
+<body style="background-color: lightblue;"> 
     <nav>
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="product.html">Product</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="login.html">Login</a></li>
-            <li><a href="signup.html">Signup</a></li>
-        </ul>
+        <ul class="nav_box">
+            <div class="logo-box">
+            <li><img class="log" src="../images/logo logo.jfif" alt=""></li>
+            </div>
+              <li class="nav"><a href="../index.html" style="text-decoration: none;">Home</a></li>
+              <li  class="nav"><a href="product.html"  style="text-decoration: none;">Product</a></li>
+              <li class="nav"><a href="about.html" style="text-decoration: none;"> About Us</a></li>
+              <li  class="nav"><a href="contact.html"  style="text-decoration: none;">Contact</a></li>
+              <li  class="nav"><a href="login.html"  style="text-decoration: none;">Login</a></li>
+              <li  class="nav"><a href="signup.html"  style="text-decoration: none;">Sign up</a></li>
+       </ul>
     </nav>
-    <h3> Our contact page</h3>
-    <p>We will provide you a contact soon, <button><a href="login.html">click to login</a></button></p>
+    <div class="formone">
+      <img src="../images/contact image.jfif" width="700px" height="400px">
+    <!-- <h3> Our contact page</h3>
+    <p>We will provide you a contact soon, <button><a href="login.html">click to login</a></button></p> -->
     <form action="">
+      <div class="formore">
+        <!-- <h3> Our contact page</h3> -->
+         <!-- <button><a href="login.html">click to login</a></button> -->
         <div>
             <label for="">Your name</label>
             <input type="text" placeholder="Name">
@@ -27,12 +87,21 @@
         <input type="text" placeholder="Your Email">
         </div>
         <textarea name="" id="" cols="30" rows="10"></textarea>
+      </div>
+      <div>
+        <button type="submit">submit</button>
+      </div>
     </form>
-    <footer>Please contact us on our socials.👍❤</footer>
-    <i class="fa-brands fa-instagram"></i>
-    <i class="fa-brands fa-youtube"></i>
-    <i class="fa-brands fa-facebook"></i>
-    <i class="fa-brands fa-twitter"></i>
-
+  </div>
+  
+    <div class="footer">
+      <footer>
+      <h4 style="font-size: 15;">Please contact us on our socials.👍❤</h4>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-twitter"></i>
+     </footer>
+     </div>
 </body>
 </html>
