@@ -45,8 +45,9 @@ li{
 
 }
 .formore{
-  background-color: aqua;
-  padding: 30px 30px;
+  background-color: orange;
+  padding: 50px;
+  margin: 40px;
 
 }
 .formone{
@@ -54,9 +55,15 @@ li{
   gap: 40px;
   justify-content: center;
 }
+body{
+  background-image: url(../images/image\ contact.jpg);
+}
+.form{
+  line-height: 50px;
+}
 </style>
 </head>
-<body style="background-color: lightblue;"> 
+<body> 
     <nav>
         <ul class="nav_box">
             <div class="logo-box">
@@ -71,14 +78,16 @@ li{
        </ul>
     </nav>
     <div class="formone">
-      <img src="../images/contact image.jfif" width="700px" height="400px">
+      <!-- <img src="../images/image contact.jpg" width="700px" height="400px"> -->
     <!-- <h3> Our contact page</h3>
     <p>We will provide you a contact soon, <button><a href="login.html">click to login</a></button></p> -->
-    <form action="">
+    <form action="" class="form">
+      <!-- <h1>Contact Us at African Food Products</h1> -->
       <div class="formore">
         <!-- <h3> Our contact page</h3> -->
          <!-- <button><a href="login.html">click to login</a></button> -->
         <div>
+          <h1>Contact Us at African Food Products</h1>
             <label for="">Your name</label>
             <input type="text" placeholder="Name">
         </div>
@@ -86,10 +95,12 @@ li{
             <label for="Email">Email</label>
         <input type="text" placeholder="Your Email">
         </div>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <div>
+        <textarea name="Enter a text here" id="" cols="30" rows="10"placeholder="Enter a text here"></textarea>
       </div>
       <div>
         <button type="submit">submit</button>
+      </div>
       </div>
     </form>
   </div>
