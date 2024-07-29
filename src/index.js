@@ -14,18 +14,42 @@ let product = document.getElementById("explore");
 
  //loading more images when i click
 function loadmore(){
-    let new_images = document.getElementById("new_images"); 
-    new_images.style.display = "block";
-    new_images.style.display = "flex";
-    let Hide=document.getElementById("hide");
-    Hide.style.display="flex";
+    let newimages = document.getElementById("new_images"); 
+    newimages.style.display = "block";
+    newimages.style.display = "flex";
+    let Hide=document.getElementById("less");
+    Hide.style.display="block";
     let reveal=document.getElementById("load");
     reveal.style.display="none";
 }
- let load= document.getElementById("load");
- load.addEventListener("click", loadmore);
+ let loan= document.getElementById("load");
+ loan.addEventListener("click", loadmore);
 
+
+ function loadMore(){
+  let newimage = document.getElementById("new_images"); 
+  newimage.style.display = "none";
+  let Hid=document.getElementById("less");
+  Hid.style.display="none";
+  let reveals=document.getElementById("load");
+  reveals.style.display="block";
+}
+let Loan= document.getElementById("less");
+Loan.addEventListener("click", loadMore);
+ 
 
 
  
- 
+function hame(){
+alert(`https://th.bing.com/th/id/OIP.EE_SZFffZhqDrzbrV3C7vwHaEo?w=248&h=180&c=7&r=0&o=5&pid=1.7`)
+} 
+
+let eges=document.getElementById("vegetable");
+eges.addEventListener("click",hame);
+
+function Man(){
+  alert(`https://th.bing.com/th/id/OIP.n7Icz73BqCt_ghKL41FE5gHaE8?rs=1&pid=ImgDetMain`)
+  } 
+  
+  let site=document.getElementById("Spices");
+  site.addEventListener("mouseenter",Man);

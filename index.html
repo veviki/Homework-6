@@ -53,6 +53,8 @@
          .explore{
             color: white;
         }
+         /* hovering  the products on home page */
+         
         
            .button1 button{
             border: 3px solid grey;
@@ -74,8 +76,8 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
-            
-      }
+            }
+           
          #new_images{
           display: none;
       } 
@@ -86,9 +88,8 @@
         background-color: black;
         padding:30px 0;
         opacity: 0.8;
-      }
-
-     a{
+       }
+      a{
         color: white;
       }
 
@@ -135,6 +136,17 @@
   padding: 10px;
   font-size: 30px;
 }
+#less{
+  display: none;
+  margin-left: 500px;
+}
+#load{
+  margin-left: 500px;
+}
+button{
+  border: 3px solid black;
+  border-radius: 5px;
+}
  /* styling the hide button */
  
  
@@ -170,7 +182,7 @@
 
     <div class="big-div">
     <div> 
-    <img id="vegetables " src="images/neew vegetable.jfif" style="width: 400px; height: 400px;" alt="">
+    <img id="vegetable" src="images/neew vegetable.jfif" style="width: 400px; height: 400px;" alt="">
     <h3 style="text-align: center;">African vegetables</h3>
     </div>
 
@@ -211,9 +223,9 @@
       </div>
 
     <!-- selecting the load me button -->
-    <button id="load">show more</button>    
+    <div id="load"><button>show more</button></div>    
     <!--this is another set of images -->
-    
+
    <div class="big-div" id="new_images">
       <div> 
       <img id="vegetables " src="images/neew vegetable.jfif" style="width: 400px; height: 400px;" alt="">
@@ -254,8 +266,8 @@
             <img id="leafy"  src="images/leaffy food.jpg" style="width: 400px; height: 400px;" alt="">
             <h3 style="text-align: center;">African Leafy Greens</h3>
         </div>
-      <span><button>Hide</button></span>
      </div>
+     <div id="less"><button>Hide</button></div>
           
            <div class="news">
   <div>

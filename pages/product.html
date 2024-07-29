@@ -14,6 +14,7 @@
 .products{
     background-color: rgb(21, 108, 189);
     color: white;
+    text-align: center;
 }
 .span a{
     font: size 30px; 
@@ -28,13 +29,13 @@
     border: 3px solid grey;
     border-radius: 9px;
     padding: 6px;
-           
+     margin-inline-end: auto;   
 }
  /* flexing all the products */
  .product_container{
   display: flex;
-  flex: wrap;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-around;
  }
  .nav_box{
         display: flex;
@@ -85,8 +86,16 @@ li{
   margin: 20px;
   padding: 10px;
   font-size: 30px;
-
 }
+.pro{
+height: 700px;
+width: 400px;
+border: 5px solid blueviolet;
+}
+.pro:hover{
+  border: 2px dotted greenyellow;
+}
+ 
     </style>
 </head>
 <body style="background-color: grey">
@@ -107,8 +116,8 @@ li{
     <h2 class="raw"><i>Our Raw Food Product</i></h2>
 
     <div class="product_container">
-    <div>
-    <img src="https://www.bing.com/th?id=OIP.2uTK0tgKfrMydCpUWX2E7wHaE0&w=208&h=150&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=\" alt=""> 
+    <div class="pro">
+    <img src="../images/new yam.jfif" width="300px" alt=""> 
     <h2 class="products">African yams</h2>
     <p><span class="span"><a href="https://simple.wikipedia.org/wiki/Yam" target="_blank">Yams </a></span>
         are native to warmer regions of both hemispheres, and several species are cultivated us 
@@ -120,9 +129,8 @@ li{
         <button class="learn"><a href="contact.html">Learn More</a></button>
     </p>
   </div>
-    <hr>
-    <div>
-    <img src="https://th.bing.com/th/id/R.21614c95d5d13082be17fa1a2892461a?rik=JUipVJ0Ft1b%2fcQ&pid=ImgRaw&r=0" style="width: 190px;" alt="">
+   <div class="pro">
+    <img src="../images/new plantain.jfif" width="300px" alt="">
     <h3 class="products">African Plantain</h3>
     <p><span class="span"><a href="https://en.wikipedia.org/wiki/Plantain" target="_blank">Plantains</a></span>
     are major group of banana varieties(genus Musa) that are staple foods in many tropical areas.
@@ -131,13 +139,10 @@ li{
       in sasvory dishes. The ripe fruits are mildly sweet and are often cooked with coconut juice or sugar as a flavouring.
      Plantains may also be dried for later use in cooking or ground for use as a meal, which can be further refined to a flour. 
     </p>
-    <p>
-        <button class="learn"><a href="contact.html">Learn More</a></button>
-    </p>
-  </div>
-    <hr>
-    <div>
-    <img src="https://th.bing.com/th/id/R.7f1a40afd1e14b9eb7a7fa1f53e6ee1e?rik=xP4dP8SfEqmepg&pid=ImgRaw&r=0"style="width: 190px;">
+   <button class="learn"><a href="contact.html">Learn More</a></button>
+   </div>
+   <div class="pro">
+    <img src="../images/new garden eggs.jfif" width="250px" alt="">
     <h3 class="products">African white-garden-egg</h3>
     <p><span class="span"><a href="https://www.bing.com/search?q=wikipedia+eggplant" target="_blank">Eggplants</a></span>
      are a type of eggplant used as a food crop in several countries across Africa.
@@ -150,25 +155,46 @@ li{
      in some African countries, although not in Ghana.  Due to its spongy texture, garden egg is sometimes used as a 
      less expensive meat substitute, as it absorbs other lavours well.
     </p>
-    <p>
-    <button class="learn"><a href="contact.html">Learn More</a></button>
-   </p>
+   <button class="learn"><a href="contact.html">Learn More</a></button>
    </div>
- <hr>
- <div>
- <img src="https://th.bing.com/th/id/OIP.HU33pK8VH6AgFBBhIk7IkAHaHa?w=1024&h=1024&rs=1&pid=ImgDetMain"style="width:190px ;" alt="">
+    <div class="pro">
+ <img src="../images/new okro.jfif" width="300px" alt="">
  <h3 class="products">Okro</h3>
  <p><span class="span"><a href="https://en.wikipedia.org/wiki/Okra" target="_blank">Okro</a></span>
  Okro, also known as okra, gumbo, or lady's fingers,
   it is a versatile vegetable found around the world. It is often used for making soups, stews and sourse.
  In Nigeria, it is a key ingresdient in popular dishes like okra soup and ogbono-soup.
 </p>
-<p>
  <button class="learn"><a href="contact.html">Learn More</a></button>
- </p>
-</div>
-  
-</div>
+ </div>
+ <div class="pro">
+  <img src="../images/potato.jfif" width="300px" alt="">
+  <h3 class="products">Potato</h3>
+  <p><span class="span"><a href="https://en.wikipedia.org/wiki/Potato" target="_blank">Okro</a></span>
+    Potatoes contain vitamins and minerals, including vitamin C and potassium. They may provide health benefits, depending on 
+    how they are prepared.Potatoes are underground tubers that grow on the roots of the potato plant, Solanum tuberosum.
+    This plant is from the nightshade family and related to tomatoes and tobacco. Native to South America, potatoes were
+     brought to Europe in the 16th century and are now grown in countless varieties worldwide.
+     They're generally eaten boiled, baked, or fried and frequently served as a side dish or snack. Common potato-based foods
+      and food products include french fries, potato chips, and potato flour.
+    </p>
+  <button class="learn"><a href="contact.html">Learn More</a></button>
+  </div>
+  <div class="pro">
+    <img src="../images/maize.jfif" width="300px" alt="">
+    <h3 class="products">Maize</h3>
+    <p><span class="span"><a href="https://en.wikipedia.org/wiki/Maize" target="_blank">Okro</a></span>
+      Maize is a versatile crop that has many food and non-food usage. Some of the uses of maize include;
+      Production of indigenous foods, maize meals, flours, grits, starches, sweeteners, cooking oils, bread,
+      tortillas, breakfast foods, snacks, bioethanol, and alcoholic beverages. A major staple food grain
+      throughout the world, particularly in Africa, Latin America and Asia, and a major feedstuff in developed
+      countries.  Making corn ethanol, animal feed and other maize products, such as corn starch and corn syrup.
+      Filler for plastics, insulation and adhesives.Making chemicals, explosives, paint, dyes, pharmaceuticals,
+      solvents etc.
+   </p>
+    <button class="learn"><a href="contact.html">Learn More</a></button>
+    </div>
+ </div>
 
  
 <div class="footer">
